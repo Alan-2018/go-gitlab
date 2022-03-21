@@ -932,3 +932,8 @@ func parseError(raw interface{}) string {
 		return fmt.Sprintf("failed to parse unexpected error type: %T", raw)
 	}
 }
+
+// test
+func DiyTest() {
+	fmt.Println("---- i am i-test ----")
+}
